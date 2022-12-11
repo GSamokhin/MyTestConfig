@@ -12,6 +12,7 @@
   ],
   "rules": {
     "@typescript-eslint/ban-types": "off",
+    "no-unused-vars": "error",
     "@typescript-eslint/no-unused-vars": [
       "off"
     ],
@@ -24,7 +25,7 @@
         "singleQuote": true,
         "useTabs": true,
         "semi": true,
-        "trailingComma": "all",
+        "trai^lingComma": "all",
         "bracketSpacing": true,
         "printWidth": 100,
         "endOfLine": "auto"
